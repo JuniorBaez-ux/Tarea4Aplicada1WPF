@@ -1,0 +1,18 @@
+﻿<Window x:Class="Tarea4Aplicada1WPF.UI.Ejercicio4cap9"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tarea4Aplicada1WPF.UI"
+        mc:Ignorable="d"
+        Title="Ejercicio4cap9" Height="450" Width="800">
+    <Grid>
+        <StackPanel Margin="10">
+            <StackPanel Margin="10,0">
+                <Label Content="Seleccione el tipo de neumatico que desea comprar"/>
+                <ComboBox x:Name="neumaticosComboBox" IsEditable="False" Width="200" HorizontalAlignment="Left" />
+            </StackPanel>
+            <Button Content="Confirmar Compra" Width="200" Height="30" Margin="0,30" Click="Button_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
